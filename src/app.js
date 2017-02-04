@@ -5,6 +5,7 @@ import ReactStormpath, { Router, HomeRoute, LoginRoute, AuthenticatedRoute } fro
 
 import MasterPage from './pages/MasterPage';
 import IndexPage from './pages/IndexPage';
+import LoginPage from './pages/LoginPage';
 
 // Initialize the Stormpath SDK
 ReactStormpath.init();
