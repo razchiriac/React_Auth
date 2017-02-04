@@ -32,10 +32,10 @@ app.get('*', function (req, res) {
 });
 
 app.on('stormpath.ready', function () {
-  app.listen(3000, 'localhost', function (err) {
+  app.listen(3003, 'localhost', function (err) {
     if (err) {
       return console.error(err);
     }
-    console.log('Listening at http://localhost:3000');
+    console.log('Listening at http://localhost:3003');
   });
 });
